@@ -66,7 +66,7 @@ public struct S {
 
 // XSUBHEADING-LABEL: "precise": "s:18ComputedProperties1SV1xSivp"
 // XSUBHEADING: names
-// XSUBHEADING: "subHeading": [
+// XSUBHEADING: "navigator": [
 // XSUBHEADING-NEXT:   {
 // XSUBHEADING-NEXT:     "kind": "keyword",
 // XSUBHEADING-NEXT:     "spelling": "var"
@@ -137,7 +137,7 @@ public struct S {
 
 // YSUBHEADING-LABEL: "precise": "s:18ComputedProperties1SV1ySivp"
 // YSUBHEADING: names
-// YSUBHEADING: "subHeading": [
+// YSUBHEADING: "navigator": [
 // YSUBHEADING-NEXT:   {
 // YSUBHEADING-NEXT:     "kind": "keyword",
 // YSUBHEADING-NEXT:     "spelling": "var"

@@ -10,7 +10,7 @@ public func foo<S>(f: @escaping () -> (), ext int: Int = 2, s: S) where S: Seque
 // CHECK-LABEL: "precise": "s:8Function3foo1f3ext1syyyc_SixtSTRzlF"
 // CHECK: names
 // CHECK-NEXT: "title": "foo(f:ext:s:)"
-// CHECK:      "subHeading": [
+// CHECK:      "navigator": [
 // CHECK-NEXT:   {
 // CHECK-NEXT:     "kind": "keyword",
 // CHECK-NEXT:     "spelling": "func"

@@ -57,7 +57,7 @@ public protocol P {
 
 // SUBHEADING-LABEL: "precise": "s:20ProtocolRequirements1PP1xSivp"
 // SUBHEADING: names
-// SUBHEADING: "subHeading": [
+// SUBHEADING: "navigator": [
 // SUBHEADING-NEXT:   {
 // SUBHEADING-NEXT:     "kind": "keyword",
 // SUBHEADING-NEXT:     "spelling": "var"

@@ -69,7 +69,7 @@ public struct S {
 
 // SUBHEADING-LABEL: "precise": "s:10Subscripts1SVyS2icip"
 // SUBHEADING: names
-// SUBHEADING: "subHeading": [
+// SUBHEADING: "navigator": [
 // SUBHEADING-NEXT:   {
 // SUBHEADING-NEXT:     "kind": "keyword",
 // SUBHEADING-NEXT:     "spelling": "subscript"

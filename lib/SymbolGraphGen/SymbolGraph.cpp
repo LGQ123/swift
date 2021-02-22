@@ -612,17 +612,9 @@ void
 SymbolGraph::serializeSubheadingDeclarationFragments(StringRef Key,
                                                      const Symbol &S,
                                                      llvm::json::OStream &OS) {
-  DeclarationFragmentPrinter Printer(this, OS, Key);
-
   if (const auto *TD = dyn_cast<GenericTypeDecl>(S.getSymbolDecl())) {
+    DeclarationFragmentPrinter Printer(this, OS, Key);
     Printer.printAbridgedType(TD, /*PrintKeyword=*/true);
-  } else {
-    auto Options = getSubHeadingDeclarationFragmentsPrintOptions();
-    if (S.getBaseType()) {
-      Options.setBaseType(S.getBaseType());
-      Options.PrintAsMember = true;
-    }
-    S.getSymbolDecl()->print(Printer, Options);
   }
 }
 
